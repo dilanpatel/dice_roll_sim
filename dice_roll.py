@@ -26,7 +26,8 @@ def dice_roll(die_sides):
         print("sum of dice is "+str(sum))
 
 def dice():
-    while True:
+    user = 0
+    while user != 2:
         print(''' 1. roll dice          2. exit     ''')
         user = int (input("what do you want to do?"))
         if (user == 1):
